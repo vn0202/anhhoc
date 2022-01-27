@@ -1,0 +1,348 @@
+/*reset css*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0px 50px;
+}
+#header{
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+    justify-content: space-between;
+    
+
+
+}
+
+#header .name{
+
+    display: inline-block;
+    flex: 1;
+
+
+}
+#header .name .quoc,
+.ti-layout-grid3
+{
+    color: orange;
+}
+#header .name-web .danh-muc{
+    display: inline-block;
+    padding: 0px 10px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+
+    
+  
+}
+#header .search{
+    display: inline-block;
+    position: relative;
+
+    padding: 0px 10px;
+    flex: 2;
+}
+#header .search input{
+   
+    
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+}
+#header .search .search-icon{
+    
+    position: absolute;
+    top:12px;
+    right: 16px;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+line-height: 28px;
+text-align: center;
+    background-color:rgb(255, 145, 0);
+color: #fff;
+    font-size: 12px;
+}
+#header .buttons{
+
+     flex: 1.5;
+     display: flex;
+     justify-content: space-between;
+
+}
+#header .buttons .nap-tien{
+    /* display: inline-block; */
+    /* width: 50%; */
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    /* text-align: right; */
+    padding-left: 8px;
+    padding-right: 4px;
+    
+   
+
+    
+}
+.buttons .sign-in,
+.buttons .dang-nhap{
+    border:1px solid rgb(255, 145, 0);
+    padding: 4px 8px;
+    color: rgb(255, 145, 0);
+    background-color: #fff;
+}
+.buttons .recharge{
+ text-transform: uppercase;
+ color: #fff;
+ background-color: rgb(255, 145, 0);
+ border:1px solid rgb(255, 145, 0);
+ padding: 8px 4px;
+}
+#container .introduce{
+    position: relative;
+    height: 500px;
+   background-image: url('../img/F4bfd9e1649e82dcfdbe.jpg');
+  
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   text-transform: uppercase;
+   color: #fff;
+   font-weight: 400;
+   font-family: Arial, Helvetica, sans-serif;
+   
+   /* background-clip: content-box; */
+}
+
+#container .sologan{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+   background-color: rgba(255, 145, 0,0.5);
+   padding-top: 60px;
+
+    
+}
+#container .list-customers{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    align-items: center;
+    
+    
+    
+}
+#container .introduce-customer{
+    min-height: 400px;
+    padding-top: 48px;
+}
+.introduce-customer .heading{
+    text-align: center;
+    opacity: 0.7;
+}
+#container .list-customers .customer{
+    width: calc(100%/5);
+    height:300px ;
+    padding: 0px 8px;
+    text-align: center;
+}
+.list-customers .customer .img-brand{
+
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+
+}
+.customer .img-brand img{
+    width: 100%;
+
+}
+.customer .name-brand{
+    text-transform: uppercase;
+    padding: 16px 0px;
+}
+.customer .description{
+    opacity: 0.8;
+}
+#container .convince{
+
+background-image: url('../img/background-mau-cam_104016924.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 24px;
+}
+#container .convince .list-reasons{
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 16px;
+    
+}
+#container .convince .heading{
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+}
+.list-reasons .reason1,
+.list-reasons .reason2{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; */
+    width: 48%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    height: 300px;
+
+  
+}
+.list-reasons .reason{
+    display: flex;
+    background-color: #fff;
+    min-height: 90px; 
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+
+}
+.list-reasons .reason1 .reason{
+    text-align: right;
+}
+
+.list-reasons .reason .descript-reason{
+    flex:3.4;
+    
+
+    padding: 24px;
+    
+}
+.list-reasons .reason .icon-sys{
+    display: inline-block;
+background-color: rgb(46, 40, 40);
+text-align: center;
+line-height: 90px;
+flex:1;
+color: yellow;
+font-size: 32px;
+
+}
+#container .function-hightlight{
+min-height: 400px;
+background-color: #fff;
+
+padding: 64px 16px 0px;
+
+}
+
+#container .function-hightlight .heading{
+    text-align: center;
+    opacity: 0.5;
+    padding-bottom: 20px;
+}
+#container .function-hightlight .functions{
+    display: flex;
+    justify-content: space-around;
+}
+#container .function-hightlight .functions1,
+#container .function-hightlight .functions2{
+    width: 45%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#container .function-hightlight .function{
+    background-color: rgb(236, 241, 236);
+    min-height: 120px;
+    display: flex;
+
+}
+.function .fram-icon{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex: 1;
+}
+.function .icon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+}
+.function .description{
+    flex: 3;
+    opacity: 0.8;
+    padding: 8px;
+}
+.function .description h3{
+    text-transform: uppercase;
+}
+.footer .footer-img{
+    padding: 60px;
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+.footer {
+    text-align: center;
+}
+.footer .footer-img img{
+    width: 100%;
+}
+.footer .demo{
+    display: inline-block;
+    border: none;
+    padding: 8px 48px;
+    background-color: darkorange;
+    color: #fff;
+    }
+.footer .contact{
+    padding:48px 0px;
+
+}
+.contact .leader{
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+}
+.img-leader{
+    width: 80px;
+    
+
+}
+.img-leader img{
+    width: 100%;
+    border-radius: 50%;
+}
+.contact  .name-leader{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: darkorange;
+    letter-spacing: 3px;
+}
+.contact >p{
+    opacity: 0.8;
+}
+.contact  .team{
+    opacity: 0.6;
+    padding: 16px 0px;
+}
+.contact .mobie,
+.contact .email{
+    color:darkorange;
+    text-transform: uppercase;
+}
