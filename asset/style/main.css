@@ -1,4 +1,8 @@
 /*reset css*/
+
+:root{
+    --heightReason:110px;
+}
 *{
     box-sizing: border-box;
     padding: 0;
@@ -6,6 +10,7 @@
 }
 body{
     margin: 0px 50px;
+
 }
 #header{
     display: flex;
@@ -201,14 +206,14 @@ padding: 24px;
     display: flex;
     flex-direction:column;
     justify-content: space-between;
-    height: 300px;
+    height: 350px;
 
   
 }
 .list-reasons .reason{
     display: flex;
     background-color: #fff;
-    min-height: 90px; 
+    min-height:var(--heightReason);
     /* text-align: center; */
     justify-content: center;
     align-items: center;
@@ -229,7 +234,7 @@ padding: 24px;
     display: inline-block;
 background-color: rgb(46, 40, 40);
 text-align: center;
-line-height: 90px;
+line-height:var(--heightReason);
 flex:1;
 color: yellow;
 font-size: 32px;
